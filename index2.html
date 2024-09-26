@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+    <!-- Slider -->
+    <div class="container">
+        <div class="slider-container">
+            <label for="slider">Adjust Value:</label>
+            <input type="range" id="slider" min="0" max="100" step="1">
+            <span id="slider-value">50</span>
+        </div>
+        <!-- Model -->
+        <button id="open-modal-btn"><h2>Open Modal</h2></button>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Frontend Developer</h2>
+                <p>I am a front-end-developer and gaining experience in my field.</p>
+            </div>
+        </div>
+
+        <!-- Accordian -->
+    <div class="container"></div>
+        <ul class="accordion-menu">
+            <li class="link">
+                <div class="dropdown">
+                    <i class="fa-brands fa-python"></i> 
+                    Python
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </div>
+                <ul class="submenuItems">
+                    <li><a href="#">Basic Level</a></li>
+                    <li><a href="#">Standard Level</a></li>
+                    <li><a href="#">Advanced Level</a></li>
+                </ul>
+            </li>
+            <li class="link">
+                <div class="dropdown">
+                    <i class="fa-brands fa-node-js"></i> 
+                    Node-JS
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </div>
+                <ul class="submenuItems">
+                    <li><a href="#">Basic Level</a></li>
+                    <li><a href="#">Standard Level</a></li>
+                    <li><a href="#">Advanced Level</a></li>
+                </ul>
+            </li>
+            <li class="link">
+                <div class="dropdown">
+                    <i class="fa-brands fa-react"></i> 
+                    React
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </div>
+                <ul class="submenuItems">
+                    <li><a href="#">Basic Level</a></li>
+                    <li><a href="#">Standard Level</a></li>
+                    <li><a href="#">Advanced Level</a></li>
+                </ul>
+            </li>
+            <li class="link">
+                <div class="dropdown">
+                    <i class="fa-brands fa-bootstrap"></i> 
+                    Bootstrap
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </div>
+                <ul class="submenuItems">
+                    <li><a href="#">Basic Level</a></li>
+                    <li><a href="#">Standard Level</a></li>
+                    <li><a href="#">Advanced Level</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
